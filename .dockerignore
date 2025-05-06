@@ -1,11 +1,5 @@
-
----
-
-### 📄 `.dockerignore`
-
-```dockerignore
 .git
 .github
-*.log
-metadata/
+ci.env
 README.md
+scripts/
