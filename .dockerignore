@@ -1,0 +1,11 @@
+
+---
+
+### 📄 `.dockerignore`
+
+```dockerignore
+.git
+.github
+*.log
+metadata/
+README.md
