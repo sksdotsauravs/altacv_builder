@@ -2,20 +2,20 @@
 
 This project builds a minimal, reusable Docker image for compiling AltaCV template based LaTeX CVs with TeXLive on Debian Bookworm.
 
-## 🔧 Features
+## Features
 
 - Based on `debian:bookworm-slim`
 - TeXLive (scheme-small) with selected CV-related packages
 - Locale and timezone preconfigured (en_US.UTF-8 and Europe/Berlin)
 - Fonts: Lato, Roboto Slab
 
-## 🐳 Build Locally
+## Build Locally
 
 ```bash
 ./scripts/build.sh
 ```
 
-## 📦 Included TeX Packages
+## Included TeX Packages
 
 The following TeX Live packages are installed in the image using `tlmgr`:
 
@@ -41,7 +41,7 @@ The following TeX Live packages are installed in the image using `tlmgr`:
 
 These packages are sufficient for building modern LaTeX CVs based on popular templates like AltaCV.
 
-## 📤 DockerHub (if used)
+## DockerHub
 
 ```bash
 docker pull sksdotsauravs/altacv_builder_debian_texlive:12-2025
